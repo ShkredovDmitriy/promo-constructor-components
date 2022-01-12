@@ -1,0 +1,37 @@
+.main-menu {
+
+}
+
+.main-menu__wrapper {
+  display: flex;
+}
+
+.main-menu__list {
+  display: flex;
+}
+
+.main-menu__item {
+
+  &:nth-child(n + 2) {
+    margin-left: 30px;
+  }
+}
+
+.main-menu__link {
+  font-size: 16px;
+  color: $color-white;
+}
+
+.auth-menu__list {
+  margin-left: auto;
+  display: flex;
+}
+
+.auth-menu__link {
+  margin-left: 30px;
+}
+
+.auth-menu__link {
+  font-size: 16px;
+  color: $color-white;
+}
